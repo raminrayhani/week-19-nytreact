@@ -1,0 +1,36 @@
+{
+  "name": "nytreact",
+  "version": "1.0.0",
+  "description": "This is a React-based rendition of the New York Times Article Search application",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raminrayhani/week-19-nytreact.git"
+  },
+  "author": "Ramin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raminrayhani/week-19-nytreact/issues"
+  },
+  "homepage": "https://github.com/raminrayhani/week-19-nytreact#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.2",
+    "path": "^0.12.7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-modal": "^2.2.2",
+    "react-router": "^4.1.1",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.2.0"
+  }
+}
